@@ -1,10 +1,10 @@
 # VitePress Plugin - Dox Transformer
 
-A VitePress plugin for transforming files using the Dox Transformer.
+A VitePress plugin for transforming files using the [Dox Transformer](https://github.com/brandtabbott/dox-transformer).
 
 ## Features
 
-- Transforms specified files using the Dox Transformer during VitePress builds.
+- Transforms specified files using the [Dox Transformer](https://github.com/brandtabbott/dox-transformer) during VitePress builds.
 - Monitors file changes and automatically updates transformed files.
 
 ## Installation
