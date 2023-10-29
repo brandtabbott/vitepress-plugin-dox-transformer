@@ -40,7 +40,7 @@ export default (options) => {
       });
 
       watcher.on("change", (path) => {
-        if (path.endsWith(config.fileExtensionToScan)) {
+        if (path.endsWith(config.fileChangeExtension)) {
           execSync(doxCommand);
         }
       });
