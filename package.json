@@ -1,0 +1,23 @@
+{
+  "name": "vitepress-plugin-dox-transformer",
+  "version": "1.0.0",
+  "description": "A VitePress plugin for dox-transformer",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandtabbott/vitepress-plugin-dox-transformer.git"
+  },
+  "author": "Brandt A. Abbott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandtabbott/vitepress-plugin-dox-transformer/issues"
+  },
+  "homepage": "https://github.com/brandtabbott/vitepress-plugin-dox-transformer#readme",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "dox-transformer": "^1.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
