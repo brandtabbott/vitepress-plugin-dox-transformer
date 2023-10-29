@@ -1,6 +1,6 @@
 {
   "name": "vitepress-plugin-dox-transformer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A VitePress plugin for dox-transformer",
   "main": "src/index.js",
   "repository": {
@@ -13,6 +13,7 @@
     "url": "https://github.com/brandtabbott/vitepress-plugin-dox-transformer/issues"
   },
   "homepage": "https://github.com/brandtabbott/vitepress-plugin-dox-transformer#readme",
+  "type": "module",
   "dependencies": {
     "chokidar": "^3.5.3",
     "dox-transformer": "^1.0.2"
