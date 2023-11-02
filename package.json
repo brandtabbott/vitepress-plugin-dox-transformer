@@ -16,7 +16,7 @@
   "type": "module",
   "dependencies": {
     "chokidar": "^3.5.3",
-    "dox-transformer": "^1.0.2"
+    "dox-transformer": "^1.0.3"
   },
   "devDependencies": {
     "prettier": "^3.0.3"
