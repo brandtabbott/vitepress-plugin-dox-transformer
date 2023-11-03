@@ -44,6 +44,12 @@ export default (options) => {
           execSync(doxCommand);
         }
       });
+
+      watcher.on("add", (path) => {
+        if (path.endsWith(config.fileChangeExtension)) {
+          execSync(doxCommand);
+        }
+      });
     },
   };
 };
