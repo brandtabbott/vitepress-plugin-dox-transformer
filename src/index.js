@@ -8,6 +8,7 @@ import { watch } from "chokidar";
  * @property {string} [fileChangeExtension]
  * @property {string} outputDirectory
  * @property {string} [outputFilesExtension]
+ * @property {string} [removeFromOutputDirectory]
  */
 
 const DEFAULT_OPTIONS = {
@@ -24,7 +25,7 @@ const DEFAULT_OPTIONS = {
  */
 export default (options) => {
   const config = { ...DEFAULT_OPTIONS, ...options };
-  const doxCommand = `dox-transformer -t ${config.transformer} -f "${config.fileGlob}" -o ${config.outputDirectory} -e "${config.outputFilesExtension}" -r "${removeFromOutputDirectory}"`;
+  const doxCommand = `dox-transformer -t ${config.transformer} -f "${config.fileGlob}" -o ${config.outputDirectory} -e "${config.outputFilesExtension}" -r "${config.removeFromOutputDirectory}"`;
 
   return {
     name: "vitepress-plugin-dox-transformer",

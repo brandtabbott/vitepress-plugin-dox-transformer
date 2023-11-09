@@ -1,6 +1,6 @@
 {
   "name": "vitepress-plugin-dox-transformer",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A VitePress plugin for dox-transformer",
   "main": "src/index.js",
   "repository": {
