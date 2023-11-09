@@ -13,6 +13,7 @@ import { watch } from "chokidar";
 const DEFAULT_OPTIONS = {
   transformer: null,
   fileGlob: null,
+  removeFromOutputDirectory: null,
   fileChangeExtension: ".vue",
   outputDirectory: null,
   outputFilesExtension: ".md",
@@ -23,7 +24,7 @@ const DEFAULT_OPTIONS = {
  */
 export default (options) => {
   const config = { ...DEFAULT_OPTIONS, ...options };
-  const doxCommand = `dox-transformer -t ${config.transformer} -f "${config.fileGlob}" -o ${config.outputDirectory} -e "${config.outputFilesExtension}"`;
+  const doxCommand = `dox-transformer -t ${config.transformer} -f "${config.fileGlob}" -o ${config.outputDirectory} -e "${config.outputFilesExtension}" -r "${removeFromOutputDirectory}"`;
 
   return {
     name: "vitepress-plugin-dox-transformer",
