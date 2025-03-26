@@ -1,6 +1,6 @@
 {
   "name": "vitepress-plugin-dox-transformer",
-  "version": "1.0.9-rc.2",
+  "version": "1.0.9",
   "description": "A VitePress plugin for dox-transformer",
   "main": "src/index.js",
   "repository": {
@@ -16,7 +16,7 @@
   "type": "module",
   "dependencies": {
     "chokidar": "^3.5.3",
-    "dox-transformer": "^1.0.5-rc.2"
+    "dox-transformer": "^1.0.5"
   },
   "devDependencies": {
     "prettier": "^3.0.3"
